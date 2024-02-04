@@ -1,3 +1,5 @@
+/* Açıklama Satırı */
+
 h1 {
     color: purple;
     font-size: 64px;
@@ -5,4 +7,29 @@ h1 {
 p{
     color: orange;
     font-size: 24px;
+}
+
+.text-red {
+    color: red;
+}
+.text-blue {
+    color: blue;
+}
+.text-green {
+    color: green;
+}
+.fs-sm {
+    font-size: 15px;
+}
+.fs-md {
+    font-size: 25px;
+}
+.fs-lg {
+    font-size: 35px;
+}
+
+#first-article {
+    color: hotpink;
+    font-size: 25px;
+    text-transform: uppercase;
 }
