@@ -1,0 +1,24 @@
+.text-red {
+    color: red;
+}
+.text-purple {
+    color: purple;
+}
+.text-gold {
+    color: gold;
+}
+.text-center {
+    text-align: center;
+}
+.list-center {
+    list-style-position: inside
+}
+.custom-header {
+    display: inline-block;
+    margin-right: 20px;
+}
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
