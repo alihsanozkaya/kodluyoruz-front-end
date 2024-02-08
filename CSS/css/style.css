@@ -1,8 +1,36 @@
 /* Açıklama Satırı */
 
+body{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left-bar {
+    width: 200px;
+    float: left;
+}
+.content {
+    width: 800px;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.bg-gray {
+    background-color: grey;
+}
+.bg-aqua {
+    background-color: aqua;
+}
+.bg-yellow {
+    background-color: yellow;
+}
 h1 {
     color: purple;
-    font-size: 64px;
 }
 p{
     color: orange;
