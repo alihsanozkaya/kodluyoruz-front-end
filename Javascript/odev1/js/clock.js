@@ -5,22 +5,22 @@ let myClock = document.querySelector("#myClock");
 function days() {
     let dayNumber = new Date().getDate();
     let day;
-    if (day == 0) {
+    if (dayNumber == 0) {
         day = "Pazar";
     }
-    else if (day == 1) {
+    else if (dayNumber == 1) {
         day = "Pazartesi";
     }
-    else if (day == 2) {
+    else if (dayNumber == 2) {
         day = "Salı";
     }
-    else if (day == 3) {
+    else if (dayNumber == 3) {
         day = "Çarşamba";
     }
-    else if (day == 4) {
+    else if (dayNumber == 4) {
         day = "Perşembe";
     }
-    else if (day == 5) {
+    else if (dayNumber == 5) {
         day = "Cuma";
     }
     else{
