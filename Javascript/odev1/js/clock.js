@@ -29,6 +29,6 @@ function days() {
     return day;
 } 
 
-myClock.innerHTML = `${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getMinutes()} ${days()}`
+myClock.innerHTML = `${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()} ${days()}`
 
 myName.innerHTML = firstName;
