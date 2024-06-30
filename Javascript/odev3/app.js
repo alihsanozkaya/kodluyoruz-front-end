@@ -81,3 +81,11 @@ const menu = [
       desc: `Red bean paste dessert, serving with honey.`,
     },
   ];
+
+let buttonsName = ["All", "Korea", "Japan", "China"];
+
+let buttonDOM = document.querySelector("#btn-container");
+
+let button = document.createElement("button");
+button.innerHTML = buttonsName[0];
+console.log(button.value)
